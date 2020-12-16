@@ -30,23 +30,27 @@
           </record-format>
         </header>
       </csv-format>
-      <csv-format name="Comma-separated (CSV)" id="Comma-separated (CSV)_id" row-numbers="true">
+      <csv-format name="Comma-separated (CSV)" id="Comma-separated (CSV)_id">
         <data>
+          <record-format prefix="" suffix="" nullText="" quotationPolicy="as needed" valueSeparator="," recordSeparator="&#10;">
+            <quotation>
+              <quotes left="'" right="'" leftEscaped="''" rightEscaped="''" />
+            </quotation>
+          </record-format>
+        </data>
+        <header>
           <record-format prefix="" suffix="" nullText="" quotationPolicy="as needed" valueSeparator="," recordSeparator="&#10;">
             <quotation>
               <quotes left="&quot;" right="&quot;" leftEscaped="&quot;&quot;" rightEscaped="&quot;&quot;" />
               <quotes left="'" right="'" leftEscaped="''" rightEscaped="''" />
             </quotation>
           </record-format>
-        </data>
-        <header>
-          <record-format prefix="" suffix="" nullText="" quotationPolicy="as needed" valueSeparator="," recordSeparator=",">
-            <quotation>
-              <quotes left="&quot;" right="&quot;" leftEscaped="&quot;&quot;" rightEscaped="&quot;&quot;" />
-              <quotes left="'" right="'" leftEscaped="''" rightEscaped="''" />
-            </quotation>
-          </record-format>
         </header>
+      </csv-format>
+      <csv-format name="Tab-separated (TSV)_1" id="8009c0f2-1aef-4dda-9f02-defc655bb4c4">
+        <data>
+          <record-format prefix="" suffix="" nullText="\N" quotationPolicy="as needed" valueSeparator="," recordSeparator="&#10;" />
+        </data>
       </csv-format>
     </csv-formats>
   </component>
